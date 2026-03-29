@@ -17,12 +17,12 @@ export const About = () => (
         className="space-y-8"
       >
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl uppercase text-white leading-tight">
+          <h4 className="text-4xl md:text-5xl uppercase text-white leading-tight">
             De servidor <br />
             <span className="bg-clip-text text-transparent bg-linear-to-b from-blue-50 to-blue-400 font-bold">
               para servidor.
             </span>
-          </h2>
+          </h4>
           <div className="h-1 w-20 bg-blue-400 rounded-full" />
         </div>
 
@@ -58,7 +58,7 @@ export const About = () => (
         <div className="absolute -inset-1 bg-linear-to-b from-blue-500 to-emerald-500 rounded-2xl blur-lg opacity-20" />
         <div className="relative bg-[#0a0a0a] border border-white/10 p-8 rounded-2xl space-y-6 backdrop-blur-xl">
           <div className="space-y-2">
-            <h4 className="text-2xl font-bold text-white tracking-tight">Victor Kiss</h4>
+            <h5 className="text-2xl font-bold text-white tracking-tight">Victor Kiss</h5>
             <p className="text-blue-400 text-xs font-black uppercase tracking-widest">Criador • Software Developer</p>
           </div>
 

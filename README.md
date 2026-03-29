@@ -62,7 +62,7 @@ A **UrbSync** é uma extensão para o navegador Google Chrome voltada ao **servi
 
    ```bash
    git clone https://github.com/victor-kiss/urbsync_lading_page.git
-   cd <PASTA_DO_PROJETO>
+   cd urbsync_lp
    ```
 
 2. **Instalar dependências:**

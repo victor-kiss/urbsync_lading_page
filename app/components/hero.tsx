@@ -26,7 +26,17 @@ export const Hero = () => (
           UrbSync
         </motion.h1>
         <motion.p variants={itemFromLeftVariants} className="max-w-2xl mx-auto text-slate-200 leading-relaxed text-base sm:text-xl">
-          Diga adeus ao copiar e colar no <span className="font-semibold text-white">SEI e Aprova Digital</span>.
+            Diga adeus ao copiar e colar no
+              <span className="font-semibold text-white">
+                {" "}
+                SEI e Aprova Digital
+              </span>
+              . Automatize a extração de dados críticos desses portais, recupere
+              seu tempo e
+              <b className="text-emerald-300 font-bold italic">
+                {" "}
+                foque na análise que realmente importa.
+              </b>
         </motion.p>
 
         <motion.div variants={itemFromRightVariants} className="flex flex-col sm:flex-row items-center justify-center gap-5 pt-6">

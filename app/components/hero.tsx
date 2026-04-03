@@ -40,7 +40,7 @@ export const Hero = () => (
         </motion.p>
 
         <motion.div variants={itemFromRightVariants} className="flex flex-col sm:flex-row items-center justify-center gap-5 pt-6">
-          <Link href="https://chromewebstore.google.com/..." target="_blank" className="w-full sm:w-auto group px-8 py-4 bg-linear-to-r from-emerald-200 to-emerald-300 text-gray-900 font-bold rounded-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_#34d399] flex items-center justify-center gap-2">
+          <Link href="https://chromewebstore.google.com/detail/ebgfomgjeoghpngkgenjndamckdjlnfg?utm_source=item-share-cb" rel="noopener noreferrer" target="_blank" className="w-full sm:w-auto group px-8 py-4 bg-linear-to-r from-emerald-200 to-emerald-300 text-gray-900 font-bold rounded-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_#34d399] flex items-center justify-center gap-2">
             Instalar no Chrome
           </Link>
           <Link href="#features" className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-xl border border-white/15 backdrop-blur-md">

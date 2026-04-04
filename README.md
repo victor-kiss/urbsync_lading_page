@@ -61,8 +61,8 @@ A **UrbSync** é uma extensão para o navegador Google Chrome voltada ao **servi
 1. **Clonar o repositório** (ajuste a URL conforme o remoto real):
 
    ```bash
-   git clone <URL_DO_REPOSITORIO>.git
-   cd <PASTA_DO_PROJETO>
+   git clone https://github.com/victor-kiss/urbsync_lading_page.git
+   cd urbsync_lp
    ```
 
 2. **Instalar dependências:**

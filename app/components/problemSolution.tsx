@@ -34,7 +34,7 @@ export const ProblemSolution: React.FC<ProblemSolutionProps> = ({ cards }) => {
           className="space-y-10 w-full text-center"
         >
           <h2 className="text-4xl md:text-6xl uppercase text-gray-100">
-            O fim do 
+            O fim do {""}
             <span className="bg-clip-text text-transparent bg-linear-to-b from-amber-50 to-amber-200 drop-shadow-[0_0_15px_rgba(252,211,77,0.5)]">
               atrito digital
             </span>

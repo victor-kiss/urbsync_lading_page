@@ -4,9 +4,11 @@ import Link from "next/link";
 import { itemFromLeftVariants, itemFromRightVariants } from "@/app/animations/variants";
 
 export const About = () => (
-  <section className="relative w-full min-h-screen z-10 flex flex-col items-center justify-center p-10 md:p-20 bg-transparent">
-  <div className="absolute inset-0 bg-linear-to-r from-transparent via-blue-900/30 to-transparent -z-10 pointer-events-none" 
-  aria-hidden="true"></div>
+  <section className="relative w-full min-h-screen z-10 flex flex-col items-center justify-center p-10 md:p-20 bg-transparent"
+  style={{
+    backgroundColor: "rgba(10,10,10,0.2)",
+    backgroundImage: "radial-gradient(at 94% 30%,  #172554 0, transparent 14%), radial-gradient(at 2% 50%, #1e40af 0, transparent 18%), radial-gradient(at 100% 80%, #2563eb 0, transparent 19%)",
+  }}>
     <div className="w-full sm:max-w-5xl z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
       {/* Lado Esquerdo: Texto Manifesto */}
       <motion.div
@@ -17,12 +19,12 @@ export const About = () => (
         className="space-y-8"
       >
         <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl uppercase text-white leading-tight">
+          <h4 className="text-4xl md:text-5xl uppercase text-w4ite leading-tight text-gray-200">
             De servidor <br />
             <span className="bg-clip-text text-transparent bg-linear-to-b from-blue-50 to-blue-400 font-bold">
               para servidor.
             </span>
-          </h2>
+          </h4>
           <div className="h-1 w-20 bg-blue-400 rounded-full" />
         </div>
 

@@ -19,9 +19,11 @@ interface ProblemSolutionProps {
 
 export const ProblemSolution: React.FC<ProblemSolutionProps> = ({ cards }) => {
   return (
-    <section className="relative w-full z-10  min-h-screen flex flex-col items-center justify-center p-10 md:p-20">
-      {/* Camada de Background */}
-      <div className="absolute inset-0 bg-linear-to-r from-black/30 via-indigo-900/30 to-black/30 -z-10" />
+    <section className="relative w-full z-10  min-h-screen flex flex-col items-center justify-center p-10 md:p-20"
+    style={{
+      backgroundColor: "rgba(10,10,10,0.2)",
+      backgroundImage: "radial-gradient(at 94% 30%, #a21caf 0, transparent 14%), radial-gradient(at 2% 50%, #8b5cf6 0, transparent 18%), radial-gradient(at 100% 80%, #581c87 0, transparent 19%)",
+    }}>
 
       <div className="w-full sm:max-w-7xl z-10 flex flex-col items-center justify-center gap-y-10">
         <motion.div 
